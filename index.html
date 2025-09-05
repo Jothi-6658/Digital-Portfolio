@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>JOTHI.V Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-gradient-to-br from-[#f7f5ff] to-[#e6e0ff] min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-[#f7f5ff] border-b border-[#d6d0ff] fixed top-0 w-full z-50">
+        <nav class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 flex items-center justify-between h-16">
+            <a class="font-extrabold text-[#6f63ff] text-lg select-none" href="#home">JOTHI.V</a>
+            <ul class="flex space-x-8 text-gray-600 text-sm font-medium">
+                <li><a class="text-[#6f63ff] font-semibold" href="#home">Home</a></li>
+                <li><a class="hover:text-gray-800" href="#about">About</a></li>
+                <li><a class="hover:text-gray-800" href="#skills">Skills</a></li>
+                <li><a class="hover:text-gray-800" href="#hobbies">Hobbies</a></li>
+                <li><a class="hover:text-gray-800" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main id="home" class="flex-grow relative flex flex-col items-center justify-center text-center px-6 sm:px-10 lg:px-16 py-40 min-h-screen">
+        <!-- Decorative Circles with animation -->
+        <img alt="Circle" class="absolute top-10 left-6 rounded-full opacity-40 float" src="https://storage.googleapis.com/a1aa/image/222b685f-c1e0-4f13-7735-da06c2697655.jpg" width="80" height="80" />
+        <img alt="Circle" class="absolute top-[180px] left-10 rounded-full opacity-40 float" src="https://storage.googleapis.com/a1aa/image/1a57c471-96f3-494f-e07c-a60f0f66aca2.jpg" width="50" height="50" />
+        <img alt="Circle" class="absolute bottom-10 right-10 rounded-full opacity-40 float" src="https://storage.googleapis.com/a1aa/image/4038559c-2018-44e0-41d3-e7b821fb2002.jpg" width="70" height="70" />
+
+        <!-- Hero Content with animation classes -->
+        <h1 class="text-[#7c6ff0] font-extrabold text-5xl sm:text-6xl mb-3 select-none fade-in-up">JOTHI.V</h1>
+        <p class="text-gray-600 text-lg sm:text-xl mb-2 select-none fade-in-up" style="animation-delay:0.2s;">BSc Computer Science Student | 2nd Year</p>
+        <p class="text-gray-600 max-w-xl mx-auto mb-8 select-none fade-in-up" style="animation-delay:0.4s;">
+            Passionate about technology and innovation, currently pursuing my degree at Vel Tech Ranga Sanku Arts College, University of Madras
+        </p>
+        <div class="flex space-x-6 justify-center mb-10 scale-in">
+            <a class="bg-gradient-to-r from-[#3b2fff] to-[#a56fff] text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:brightness-110 transition" href="#about">Explore My Portfolio</a>
+            <a class="bg-white text-black font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-100 transition" href="#contact">Get In Touch</a>
+        </div>
+        <p class="text-gray-600 text-sm select-none fade-in-up" style="animation-delay:0.6s;">Register No: 993869F25CDF028943F4604758C017F4</p>
+        <div class="mt-16">
+            <i class="fas fa-chevron-down text-[#6f63ff] text-xl animate-bounce"></i>
+        </div>
+    </main>
+
+
+    <!-- About Me Section -->
+    <section id="about" class="bg-[#f8fafc] text-gray-700 py-20 fade-in-up" style="animation-delay:0.2s;">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-10">
+                <h2 class="text-[28px] font-extrabold text-[#4b44f7] leading-tight">About Me</h2>
+                <p class="text-[15px] text-gray-600 mt-2 max-w-xl mx-auto">
+                    A dedicated Computer Science student with a passion for learning and innovation
+                </p>
+                <div class="mt-1">
+                    <span class="inline-block w-1.5 h-1.5 rounded-full bg-red-600"></span>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row gap-8 md:gap-12">
+                <!-- Education Card -->
+                <div class="bg-white rounded-xl shadow-md flex-1 p-8 max-w-xl mx-auto md:mx-0">
+                    <div class="flex items-center mb-6">
+                        <i class="fas fa-graduation-cap text-[#4b44f7] text-xl mr-3"></i>
+                        <h3 class="text-lg font-semibold text-black">Education</h3>
+                    </div>
+                    <div class="space-y-8">
+                        <div class="flex space-x-4">
+                            <div class="flex flex-col items-center">
+                                <i class="far fa-calendar-alt text-gray-400 text-sm mb-1"></i>
+                                <div class="w-[2px] bg-[#d8d8ff] flex-1"></div>
+                            </div>
+                            <div class="flex-1 text-sm text-gray-500">
+                                <p class="mb-1">Current</p>
+                                <p class="text-[#4b44f7] font-semibold text-base leading-tight">
+                                    BSc Computer Science - 2nd Year
+                                </p>
+                                <p>Vel Tech Ranga Sanku Arts College</p>
+                                <p>University of Madras</p>
+                            </div>
+                        </div>
+                        <div class="flex space-x-4">
+                            <div class="flex flex-col items-center">
+                                <i class="far fa-calendar-alt text-gray-400 text-sm mb-1"></i>
+                                <div class="w-[2px] bg-[#d8d8ff] flex-1"></div>
+                            </div>
+                            <div class="flex-1 text-sm text-gray-500">
+                                <p class="mb-1">2022</p>
+                                <p class="font-semibold text-black leading-tight">
+                                    Higher Secondary Education
+                                </p>
+                                <p>Dr. Sivandhi Adhithanar Girls Higher Secondary School</p>
+                                <p class="text-green-700 font-semibold">Total Marks: 370</p>
+                            </div>
+                        </div>
+                        <div class="flex space-x-4">
+                            <div class="flex flex-col items-center">
+                                <i class="far fa-calendar-alt text-gray-400 text-sm mb-1"></i>
+                            </div>
+                            <div class="flex-1 text-sm text-gray-500">
+                                <p class="mb-1">2020</p>
+                                <p class="font-semibold text-black leading-tight">Secondary Education</p>
+                                <p class="text-green-700 font-semibold">Total Marks: 290</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Personal Info Card -->
+                <div class="bg-white rounded-xl shadow-md flex-1 p-8 max-w-xl mx-auto md:mx-0">
+                    <div class="flex items-center mb-6">
+                        <i class="fas fa-map-marker-alt text-[#4b44f7] text-xl mr-3"></i>
+                        <h3 class="text-lg font-semibold text-black">Personal Info</h3>
+                    </div>
+                    <div class="text-sm text-gray-600 space-y-6">
+                        <div>
+                            <p class="text-[#4b44f7] font-semibold mb-1">Location</p>
+                            <p>11 Perumal Kovil Street, Chinna Sekkadu <br /> Manali, Chennai – 68</p>
+                        </div>
+                        <div>
+                            <p class="text-[#4b44f7] font-semibold mb-1">Languages</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-[#d8d8ff] text-[#4b44f7] rounded-full px-3 py-1 text-xs font-semibold">Tamil</span>
+                                <span class="bg-[#d8d8ff] text-[#4b44f7] rounded-full px-3 py-1 text-xs font-semibold">English</span>
+                                <span class="bg-[#d8d8ff] text-[#4b44f7] rounded-full px-3 py-1 text-xs font-semibold">Malayalam</span>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-[#4b44f7] font-semibold mb-1">Contact</p>
+                            <p>Phone: 7824851870</p>
+                        </div>
+                        <div>
+                            <p class="text-[#4b44f7] font-semibold mb-1">NMID</p>
+                            <p class="text-xs text-gray-400 select-text">993869F25CDF028943F4604758C017F4</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-white text-center text-gray-600 py-20 fade-in-up" style="animation-delay:0.4s;">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-extrabold text-indigo-600 mb-2">Skills & Expertise</h2>
+            <p class="text-base max-w-xl mx-auto mb-16">
+                Technical skills I've developed during my academic journey
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-8 max-w-6xl mx-auto">
+                <div class="bg-white border border-gray-100 rounded-lg p-8 flex-1 max-w-sm mx-auto shadow-sm">
+                    <div class="w-16 h-16 rounded-full bg-gradient-to-tr from-blue-500 to-indigo-600 flex items-center justify-center mx-auto mb-6">
+                        <img class="w-6 h-6" src="https://storage.googleapis.com/a1aa/image/a69fdc6a-3a72-4f50-a87a-499e5690d37f.jpg" />
+                    </div>
+                    <h3 class="text-lg font-semibold text-black mb-1">Python</h3>
+                    <p class="text-sm text-gray-500 mb-4">Programming and automation</p>
+                    <span class="inline-block bg-indigo-200 text-indigo-600 text-xs font-semibold rounded-full px-3 py-1">Intermediate</span>
+                </div>
+
+                <div class="bg-white border border-gray-100 rounded-lg p-8 flex-1 max-w-sm mx-auto shadow-sm">
+                    <div class="w-16 h-16 rounded-full bg-gradient-to-tr from-orange-500 to-red-600 flex items-center justify-center mx-auto mb-6">
+                        <img class="w-6 h-6" src="https://storage.googleapis.com/a1aa/image/7847d293-b4a8-4992-8720-9ba818ff82cd.jpg" />
+                    </div>
+                    <h3 class="text-lg font-semibold text-black mb-1">HTML</h3>
+                    <p class="text-sm text-gray-500 mb-4">Web structure and markup</p>
+                    <span class="inline-block bg-indigo-200 text-indigo-600 text-xs font-semibold rounded-full px-3 py-1">Intermediate</span>
+                </div>
+
+                <div class="bg-white border border-gray-100 rounded-lg p-8 flex-1 max-w-sm mx-auto shadow-sm">
+                    <div class="w-16 h-16 rounded-full bg-gradient-to-tr from-purple-500 to-pink-600 flex items-center justify-center mx-auto mb-6">
+                        <img class="w-6 h-6" src="https://storage.googleapis.com/a1aa/image/f7b85641-c746-4a56-0ba3-e3ab8df1493c.jpg" />
+                    </div>
+                    <h3 class="text-lg font-semibold text-black mb-1">PowerPoint</h3>
+                    <p class="text-sm text-gray-500 mb-4">Professional presentations</p>
+                    <span class="inline-block bg-indigo-200 text-indigo-600 text-xs font-semibold rounded-full px-3 py-1">Advanced</span>
+                </div>
+            </div>
+
+            <button class="mt-16 inline-flex items-center gap-2 bg-indigo-200 text-indigo-600 font-semibold text-sm rounded-full px-8 py-3 mx-auto">
+        <img class="w-4 h-4"
+          src="https://storage.googleapis.com/a1aa/image/d78fc2d5-e9a1-4ab7-4e9b-463bce93fa05.jpg" />
+        Currently learning advanced Python concepts and web development
+      </button>
+        </div>
+    </section>
+
+    <!-- Hobbies & Interests Section -->
+    <section id="hobbies" class="bg-[#f8fafc] text-center text-gray-600 py-20 fade-in-up" style="animation-delay:0.6s;">
+        <main class="px-6 sm:px-10 md:px-20 lg:px-32 xl:px-48">
+            <h1 class="text-[28px] sm:text-3xl font-extrabold text-[#4b44f7] mb-2">
+                Hobbies & Interests
+            </h1>
+            <p class="text-[15px] sm:text-base max-w-xl mx-auto mb-16">
+                Beyond academics, I enjoy various activities that keep me creative and active
+            </p>
+
+            <!-- Achievement Card -->
+            <section class="max-w-4xl mx-auto border border-[#d7d8ff] rounded-xl py-8 px-6 mb-16 flex flex-col items-center gap-2">
+                <i class="fas fa-trophy text-[#4b44f7] text-4xl mb-2"></i>
+                <h2 class="text-[#4b44f7] font-extrabold text-lg sm:text-xl mb-2">
+                    Achievement in Sports
+                </h2>
+                <p class="text-[15px] sm:text-base max-w-md text-gray-600">
+                    Recognized for outstanding performance and dedication in sports activities
+                </p>
+            </section>
+
+            <!-- Hobby Grid -->
+            <section class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 mb-16">
+                <div class="bg-white rounded-xl p-6 flex flex-col items-center gap-4 shadow-sm">
+                    <div class="w-14 h-14 rounded-full bg-gradient-to-tr from-[#0f9d58] to-[#34a853] flex items-center justify-center">
+                        <img class="w-6 h-6" src="https://storage.googleapis.com/a1aa/image/7a998672-4a0b-4f0e-fe25-4ec55fefdca4.jpg" />
+                    </div>
+                    <p class="font-semibold text-black text-sm">Carrom</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 flex flex-col items-center gap-4 shadow-sm">
+                    <div class="w-14 h-14 rounded-full bg-gradient-to-tr from-[#e91e63] to-[#ec407a] flex items-center justify-center">
+                        <img class="w-6 h-6" src="https://storage.googleapis.com/a1aa/image/00d4c524-5cac-4550-196e-d15d71aee9a7.jpg" />
+                    </div>
+                    <p class="font-semibold text-black text-sm">Drawing</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 flex flex-col items-center gap-4 shadow-sm">
+                    <div class="w-14 h-14 rounded-full bg-gradient-to-tr from-[#7c4dff] to-[#7e57c2] flex items-center justify-center">
+                        <img class="w-6 h-6" src="https://storage.googleapis.com/a1aa/image/be38fc4d-3b9d-4533-d21d-8471b1df0dad.jpg" />
+                    </div>
+                    <p class="font-semibold text-black text-sm">Dancing</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 flex flex-col items-center gap-4 shadow-sm">
+                    <div class="w-14 h-14 rounded-full bg-gradient-to-tr from-[#2196f3] to-[#1e88e5] flex items-center justify-center">
+                        <img class="w-6 h-6" src="https://storage.googleapis.com/a1aa/image/e22d0d48-be9b-4e93-c63c-ce91bd845122.jpg" />
+                    </div>
+                    <p class="font-semibold text-black text-sm">Singing</p>
+                </div>
+                <div class="bg-white rounded-xl p-6 flex flex-col items-center gap-4 shadow-sm">
+                    <div class="w-14 h-14 rounded-full bg-gradient-to-tr from-[#f57c00] to-[#fbc02d] flex items-center justify-center">
+                        <img class="w-6 h-6" src="https://storage.googleapis.com/a1aa/image/4fbcd004-44eb-4bce-bb93-f200a1e3a11b.jpg" />
+                    </div>
+                    <p class="font-semibold text-black text-sm">Chess</p>
+                </div>
+            </section>
+
+        </main>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="max-w-7xl mx-auto px-6 py-8 fade-in-up" style="animation-delay:0.8s;">
+        <div class="text-center mb-10">
+            <h2 class="text-3xl font-extrabold text-[#3B3BD3]">Get In Touch</h2>
+            <p class="text-[15px] text-[#6B7280] mt-2">Have a question or want to connect? I'd love to hear from you!</p>
+        </div>
+        <div class="flex flex-col md:flex-row md:space-x-10 max-w-5xl mx-auto">
+            <!-- Contact Info -->
+            <div class="md:w-1/2 space-y-6 mb-10 md:mb-0">
+                <h3 class="text-lg font-semibold mb-4">Let's Connect</h3>
+                <div class="flex items-center space-x-4 bg-[#F9FAFB] border border-[#E5E7EB] rounded-lg p-5">
+                    <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#3B3BD3] text-white">
+                        <i class="fas fa-phone-alt text-lg"></i>
+                    </div>
+                    <div>
+                        <p class="text-sm font-semibold text-[#3B3BD3] mb-1">Phone</p>
+                        <p class="text-sm text-[#6B7280]">7824851870</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4 bg-[#F9FAFB] border border-[#E5E7EB] rounded-lg p-5">
+                    <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#3B3BD3] text-white">
+                        <i class="fas fa-envelope text-lg"></i>
+                    </div>
+                    <div>
+                        <p class="text-sm font-semibold text-[#3B3BD3] mb-1">Email</p>
+                        <p class="text-sm text-[#6B7280]">jothi.cs@example.com</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4 bg-[#F9FAFB] border border-[#E5E7EB] rounded-lg p-5">
+                    <div class="flex items-center justify-center w-12 h-12 rounded-full bg-[#3B3BD3] text-white">
+                        <i class="fas fa-map-marker-alt text-lg"></i>
+                    </div>
+                    <div>
+                        <p class="text-sm font-semibold text-[#3B3BD3] mb-1">Location</p>
+                        <p class="text-sm text-[#6B7280]">Chennai, Tamil Nadu</p>
+                    </div>
+                </div>
+                <div class="bg-[#F9FAFB] border border-[#E5E7EB] rounded-lg p-5">
+                    <p class="text-sm font-semibold text-[#3B3BD3] mb-2">Address</p>
+                    <p class="text-sm text-[#6B7280] leading-relaxed">
+                        11 Perumal Kovil Street<br /> Chinna Sekkadu, Manali<br /> Chennai – 68<br /> Tamil Nadu, India
+                    </p>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <div class="md:w-1/2 bg-[#F9FAFB] border border-[#E5E7EB] rounded-lg p-6">
+                <h3 class="text-lg font-semibold mb-4">Send a Message</h3>
+                <form class="space-y-4">
+                    <input type="text" placeholder="Your Name" class="w-full border border-[#C7D2FE] rounded-md px-4 py-2 text-sm text-[#6B7280] focus:outline-none focus:ring-2 focus:ring-[#C7D2FE]" />
+                    <input type="email" placeholder="Your Email" class="w-full border border-[#C7D2FE] rounded-md px-4 py-2 text-sm text-[#6B7280] focus:outline-none focus:ring-2 focus:ring-[#C7D2FE]" />
+                    <textarea rows="5" placeholder="Your Message" class="w-full border border-[#C7D2FE] rounded-md px-4 py-2 text-sm text-[#6B7280] resize-none focus:outline-none focus:ring-2 focus:ring-[#C7D2FE]"></textarea>
+                    <button type="submit" class="w-full bg-gradient-to-r from-[#3B3BD3] to-[#A94AF7] text-white font-semibold text-sm py-3 rounded-md flex items-center justify-center space-x-2 hover:opacity-90 transition-opacity">
+              <i class="fas fa-paper-plane"></i>
+              <span>Send Message</span>
+            </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#f5f5ff] w-full py-8 px-4 md:px-0 fade-in-up" style="animation-delay:1s;">
+        <div class="text-center">
+            <h1 class="text-[#3f3fff] font-extrabold text-lg md:text-xl">JOTHI.V</h1>
+            <p class="text-[#6b6b7b] text-xs md:text-sm mt-1">BSc Computer Science Student</p>
+        </div>
+        <hr class="border-t border-[#c7c7e6] my-6" />
+        <div class="flex flex-col md:flex-row justify-between text-[#6b6b7b] text-[9px] md:text-xs font-mono max-w-7xl mx-auto">
+            <div class="mb-2 md:mb-0 text-center md:text-left">
+                © 2024 JOTHI.V. All rights reserved.<br /> Register No: 993869F25CDF028943F4604758C017F4
+            </div>
+            <div class="text-center md:text-right flex items-center justify-center md:justify-end space-x-1">
+                <span>Made with</span>
+                <i class="fas fa-heart text-red-600 text-xs md:text-sm"></i>
+                <span>in Chennai</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button aria-label="Scroll to top" class="fixed bottom-8 right-8 w-12 h-12 rounded-full bg-gradient-to-br from-[#4b44f7] to-[#7a5fff] text-white shadow-lg flex items-center justify-center hover:scale-110 transition-transform" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <i class="fas fa-angle-up"></i>
+  </button>
+
+</body>
+
+</html>
